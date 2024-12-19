@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CatCafe</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- Google іконки -->
 </head>
 <body>
@@ -76,6 +76,12 @@
             </div>
         </div>
     </section>
+
+    <section class="forms">
+        <div>
+            
+        </div>
+    </section>
    
     <div class="footer">
         <footer>
@@ -83,13 +89,51 @@
             <p><i class="material-icons">favorite</i><a href="#">@Instagram</a></p>
             <p><i class="material-icons">call</i><a href="#">095 12 34 567</a></p>
             <p><i class="material-icons">location_on</i><a href="#">Kyiv Podil</a></p><br>
-        </footer>
+            <table class="table">
+            <h1>Work schedule</h1>
+            <tr>
+                <th>Day</th>
+                <th>Opening time</th>
+                <th>Closing time</th>
+            </tr>
+            <tr> 
+                <td>Monday</td> 
+                <td>8:30</td>
+                <td>21:00</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>8:30</td>
+                <td>21:00</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>9:00</td>
+                <td>20:00</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>8:30</td>
+                <td>21:00</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>8:30</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>10:00</td>
+                <td>21:00</td>
+            </tr>
+            </table>
+        </footer><br>       
         
-        <a href="#"><i class="material-icons">favorite</i></a>
-        <a href="#"><i class="material-icons">cloud</i></a>
-        <a href="#"><i class="material-icons">attachment</i></a>
-        <a href="#"><i class="material-icons">computer</i></a>
-        <a href="#"><i class="material-icons">traffic</i></a>
     </div>
     
     <script>
@@ -99,7 +143,6 @@
         menuBtn.addEventListener('click',()=>{
             navlinks.classList.toggle('mobile-menu')
         })
-
     </script>
     
 </body>
