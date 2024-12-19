@@ -9,22 +9,102 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- Google іконки -->
 </head>
 <body>
+    <nav class="navbar">
+        <h1 class="logo">CatCafe</h1>
+        <ul class="nav-links">
+            <li class="animationBar"><a href="#">Home</a></li>
+            <li class="animationBar"><a href="#">About us</a></li>
+            <li class="animationBar"><a href="#">Menu</a></li>
+            <li class="animationBar"><a href="#">Events</a></li>
+            <li class="animationBar"><a href="#">Reservation</a></li>
+            <li  class="ctn"><a href="#">Contacts</a></li>
+        </ul>
+        <img src="./img/menu-burger-light.png" alt="" class="menu-btn">
+
+    </nav>
+
     <header>
         <div class="header-content">
-            <a href="#" class="logo">CatCafe</a>
-            <div class="line">
-                <a href="#" class="active">Home</a>
-                <a href="#">About us</a>
-                <a href="#">Menu</a>
-                <a href="#">Events</a>
-                <a href="#">Reservation</a>
-                <a href="#">Contacts</a>
-            </div>                
-          
+           <h1>Cat Cafe in Kyiv</h1>
         </div>
         
     </header>
-    <section class="home">
+
+    <section class="explore">
+        <div class="explore-content">
+          <h1>The concept</h1>        
+          <p>Cat Cafe is a theme cafe whose attraction is cats who can be watched and played with. We combine your 2 favorite things: coffee and cats.</p>
+          <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+  
+
+    <section class="events">
+        <div class="title">
+            <h1>Our stars</h1>            
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/1.jpg" alt="">
+                <h4>Leo</h4>
+                <p>Leo is a very shy guy, but we even love him for that</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="./img/2.jpg" alt="">
+                <h4>Shon</h4>
+                <p>Shon is a very shy guy, but we even love him for that</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="./img/3.jpg" alt="">
+                <h4>Fluffy</h4>
+                <p>Fluffy is a very shy guy, but we even love him for that</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="./img/4.jpg" alt="">
+                <h4>Cake</h4>
+                <p>Cake is a very shy guy, but we even love him for that</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="./img/5.jpg" alt="">
+                <h4>Sleepy</h4>
+                <p>Sleepy is a very shy guy, but we even love him for that</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+   
+    <div class="footer">
+        <footer>
+            <h1>Contacts</h1>
+            <p><i class="material-icons">favorite</i><a href="#">@Instagram</a></p>
+            <p><i class="material-icons">call</i><a href="#">095 12 34 567</a></p>
+            <p><i class="material-icons">location_on</i><a href="#">Kyiv Podil</a></p><br>
+        </footer>
+        
+        <a href="#"><i class="material-icons">favorite</i></a>
+        <a href="#"><i class="material-icons">cloud</i></a>
+        <a href="#"><i class="material-icons">attachment</i></a>
+        <a href="#"><i class="material-icons">computer</i></a>
+        <a href="#"><i class="material-icons">traffic</i></a>
+    </div>
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+
+
+
+<!-- 
         <div class="home-img">
             <img scr="main.jpg" alt="">
         </div>
@@ -46,9 +126,8 @@
 
             </div>
         </div>
-    </section>
 
-
+-->
     
 </body>
 </html>
