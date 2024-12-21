@@ -186,6 +186,72 @@ tr:hover{
 .material-icons{
     color: rgb(234, 220, 192);
 }
+.material-icons-form{
+    position: relative;
+    top: -33px;
+    left: 17px;    
+    color: rgb(58, 38, 10);
+}
+.form{    
+    width: 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.register{
+    left: 4px;
+    width: 100%;
+}
+.input-field{
+    font-size: 15px;
+    background: rgb(192, 182, 164);
+    color: rgb(72, 47, 12);
+    height: 40px;
+    width: 100%;
+    padding: 0 10px 0 45px;
+    border: none;
+    border-radius: 30px;    
+    outline: none;
+    transition: .1s ease;
+}
+.input-field:hover, .input-field:focus{
+    background: rgb(155, 148, 133);
+}
+.top p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.submit{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(248, 238, 219);
+    height: 45px;
+    width: 100%;
+    border:0px;
+    border-radius: 30px;
+    outline: none;
+    background: rgb(148, 141, 127);
+    cursor: pointer;
+    transition: .1s ease-in-out;
+    margin-bottom: 15px;
+}
+.submit:hover{
+    background: rgb(118, 112, 101);
+    box-shadow: 1px 2px 5px black;
+}
+.checkbox-form{
+    position: relative;
+    left: 17px;
+}
+.checkboxName{
+    position: relative;
+    left: 17px;    
+    color: rgb(90, 40, 4);
+}
+::-webkit-input-placeholder{
+    color: rgb(248, 238, 219);
+}
 /* Mobile device*/
 @media only screen and (max-width:850px){
     .menu-btn{
@@ -229,5 +295,11 @@ tr:hover{
     }
     table{
         width: 100%;
+    }
+    .form{    
+        width: 80%;
+        position: relative;
+        display: flex;
+        align-items: center;
     }
 }
