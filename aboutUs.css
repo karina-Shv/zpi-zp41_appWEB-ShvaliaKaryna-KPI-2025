@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville','Times New Roman', sans-serif;
+    font-size: 18px;
+    background-color: antiquewhite;
+}
+.aboutUs{
+    margin: 15px;
+    padding: 15px;
+}
