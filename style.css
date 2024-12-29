@@ -300,3 +300,24 @@ tr:hover{
         align-items: center;
     }
 }
+
+@media only screen and (max-width:1280px){
+    .row{
+        column-count: 2;
+        column-width: 900px;
+    }
+    .row .col{
+        margin: 20px auto;
+        width: 90%;
+    }
+    .row .col img{
+        max-width: 100%;
+        height: 100%;
+    }
+    .form{    
+        width: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+}
