@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Libre Baskerville','Times New Roman', sans-serif;
-    font-size: 18px;
     background-color: antiquewhite;
 }
-.aboutUs{
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: 25px;
-    padding: 15px;
+.title{
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+    color:rgb(90, 40, 4);
+}
+.menuImg{
+    margin-left: 25%;
 }

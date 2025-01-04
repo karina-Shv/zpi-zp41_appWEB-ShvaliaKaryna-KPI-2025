@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville','Times New Roman', sans-serif;
+    background-color: antiquewhite;
+}
+.title{
+    text-align: center;
+    margin: 25px;
+    font-size: 4vmin;
+    color:rgb(90, 40, 4);
+}
+.events{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(74, 48, 11);
+}
+.table, th, td{
+    width: 70%;
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;    
+    margin: auto;
+}
+th, td {
+    padding: 15px;
+}
+tr:hover{    
+    background-color: rgb(46, 32, 11);
+}
